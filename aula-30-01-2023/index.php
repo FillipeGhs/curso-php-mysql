@@ -42,8 +42,8 @@ function iniciaAulaTiposDados(){
 
 // Passando parametros para a url via GET
 
-$nome = "Gelvazio";
-$idade = 36;
+$nome = "Fillipe";
+$idade = 17;
 
 $parametros = "?nome=" . $nome . "&idade=" . $idade;
 
