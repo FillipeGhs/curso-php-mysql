@@ -1,49 +1,101 @@
 <?php
 
-function iniciaAula(){
-// echo 'ola mundo';
+function iniciaAulaTiposDados(){
 
-//tipo numerico - int - long
+    // echo 'ola mundo';
 
-//Tipo text(string) - classe string
+    // Tipo Numerico - int - long
 
-//Tipo Logico(verdadeiro/falso)
+    // Tipo Texto(String) - Classe String
 
-// tipo objeto
+    // Tipo Logico(Verdadeiro/Falso ou False/True
 
-$var = 1.2;
+    // Tipo Objeto
 
-var_dump($var); //mostra o tipo da variavel
+    $var = "1.2 teste gelvazio";
 
+    var_dump($var);
 
+    echo '<br>';
 
+    $var2 = 1515;
+
+    $calculaImposo = true;
+
+    var_dump($calculaImposo);
+
+    $objetoPessoa = new stdClass();
+    $objetoPessoa->codigo = 1;
+    $objetoPessoa->nome = "Joao";
+    $objetoPessoa->idade = 36;
+
+    echo ("<br>");
+    echo ("<br>");
+    echo '<pre>' . var_dump($objetoPessoa) . '</pre>';
 }
 
+// iniciaAulaTiposDados();
 
-//iniciaAula(); //chama a função
+// chamando arquivos php e passar parametros
 
-$nome = "Fillipe";
-$idade = 17;
+
+
+// Passando parametros para a url via GET
+
+$nome = "Gelvazio";
+$idade = 36;
 
 $parametros = "?nome=" . $nome . "&idade=" . $idade;
 
-//juntar os parametros na url base
+// url base
+$urlBase = "http://localhost/curso-php-mysql/aula-30-01-2023/arquivo.php";
 
-$urlbase = "http://localhost/curso-php-mysql/aula-30-01-2023/arquivo.php";
-$urlbase = $urlbase . $parametros;
+// juntar os parametros na url base
+$urlBase = $urlBase . $parametros;
 
-$html =  '<a href="'.$urlbase . $parametros.'">Chamando Arquivo PHP </a';
-echo $html;
+echo '<a href="' . $urlBase . '">Chamando Arquivo PHP</a>';
 
-//string
+//###########################STRINGS####################################
 $urlBase = "http://localhost/curso-php-mysql/aula-30-01-2023/string.php";
-$palavra ="arara";
+
+$palavra = "arara";
 $parametros = "?palavra=" . $palavra;
 
-//juntar parametros na urlbase
-$urlBase = $urlBase;
+// juntar os parametros na url base
+$urlBase = $urlBase . $parametros;
 
-echo '<br><a href="' . $urlBase . $parametros . '">Chamando Arquivo String</a>';
+echo '<br><a href="' . $urlBase . '">Chamando Arquivo String</a>';
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
