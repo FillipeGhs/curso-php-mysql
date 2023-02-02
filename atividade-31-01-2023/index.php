@@ -1,6 +1,6 @@
 <?php
 
-$css_arquivo = '<link rel="stylesheet" href="style.css">';
+$css_arquivo = '<link rel="stylesheet" href="Style2.css">';
 
 $links = '<div class="links">
               <a href="fichamatricula.php">Preencher Ficha de Matricula</a>
