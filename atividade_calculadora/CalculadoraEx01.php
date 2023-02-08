@@ -16,7 +16,22 @@ class calculadora {
     public function dividir(){
         return $this->valor1 / $this->valor2;
     }
-}
+    public function fatorial(){
+        $n = this->valor1;
+
+        $contador = $n;
+        $resultado = 1;
+
+        while($contador > 0) {
+            $resultado = $resultado * $contador;
+            echo '<br> contador:' . $contador . ' resultado:' . $resultado;
+
+            $contador--;
+        }
+        return $resultado;
+
+        }
+    }
 
 
 
