@@ -22,7 +22,7 @@ $html_formulario = '
             <option value="3">Lontras</option>
             <option value="4">Bela vista</option>
             <option value="5">Imbuia</option>
-            <option value="6">Florianópolis</option>
+            <option value="6">Imbuia </option>
         <br>
         <label>Telefone:</label>
         <input type="text" name="Telefone" value="">
@@ -44,7 +44,7 @@ $html_formulario = '
         <li><input type="checkbox" name="9">Licenciatura em Pedagogia</li>
         <li><input type="checkbox" name="10">Licenciatura em Matemática</li>
         <li><input type="checkbox" name="11">Licenciatura em Física</li>
-        <li><input type="checkbox" name="12">Pós-Graduação em Agronomia: Sistemas Agrícolas Regionais</li>
+        <li><input type="checkbox" name="12">Pós-Graduação em Agronomia: Sistemas Agrícolas Rrgionais</li>
         <label>Outros:</label>
         <input type="text" name="Outros" value"">
         </ul>
