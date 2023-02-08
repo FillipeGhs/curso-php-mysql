@@ -12,3 +12,6 @@ echo 'Multiplicação' . $oCalculadora->multiplicar(). '<br>';
 echo 'Divisão' . $oCalculadora->dividir(). '<br>';
 
 
+<?php
+
+
